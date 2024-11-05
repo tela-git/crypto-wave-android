@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.kotlin.serialization)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -61,6 +62,10 @@ dependencies {
 
     implementation(libs.bundles.ktor)
     implementation(libs.bundles.compose)
+    implementation(libs.bundles.koin)
+
+    //Firebase BOM
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
