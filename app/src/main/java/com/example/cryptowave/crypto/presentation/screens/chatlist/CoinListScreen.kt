@@ -17,7 +17,7 @@ import com.example.cryptowave.crypto.presentation.components.CoinListItem
 import com.example.cryptowave.crypto.presentation.components.bitcoin
 
 @Composable
-fun ChatListScreen(
+fun CoinListScreen(
     coinListState: CoinListState,
     modifier: Modifier = Modifier
 ) {
@@ -42,7 +42,7 @@ fun ChatListScreen(
 @Composable
 fun ChatListScreenPreview() {
     CryptoWaveTheme {
-        ChatListScreen(
+        CoinListScreen(
             coinListState = CoinListState(
                 isLoading = false,
                 coinList = (1..100).map {
