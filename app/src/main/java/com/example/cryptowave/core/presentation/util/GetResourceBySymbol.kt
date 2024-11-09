@@ -1,4 +1,4 @@
-package com.example.cryptowave.utils
+package com.example.cryptowave.core.presentation.util
 
 import com.example.cryptowave.R
 

@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.cryptowave" />
+                  <option name="mobileSdkAppId" value="1:914273577231:android:17b84d51afbb746882f67a" />
+                  <option name="projectId" value="cryptowave-cd58f" />
+                  <option name="projectNumber" value="914273577231" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
