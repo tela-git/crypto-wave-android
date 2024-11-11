@@ -2,6 +2,7 @@ package com.example.cryptowave.crypto.presentation.components
 
 import CryptoWaveTheme
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -39,6 +40,7 @@ fun CoinListItem(
         verticalAlignment = Alignment.CenterVertically,
         modifier = modifier
             .padding(16.dp)
+            .clickable { onClick() }
     ) {
         Icon(
             imageVector = ImageVector.vectorResource(coinUI.iconRes),
@@ -105,4 +107,5 @@ val bitcoin = Coin(
     rank = 1,
     priceUsd = 2343434.232,
     changePercent24Hr = 3.94,
+    marketCapUsd = 424.23
 ).toCoinUi()
